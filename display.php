@@ -47,8 +47,8 @@ while($row=mysqli_fetch_assoc($result)){
     <td>'.$email.'</td>
     <td>'.$mobile.'</td>
     <td>'.$password.'</td>
-    <td><button class="btn btn-primary"><a href="update.php? updateid='.$id.'" class="text-light">Update</a></button>
-    <button class="btn btn-danger"><a href="delete.php? deleteid='.$id.'" class="text-light">Delete</a></button>
+    <td><button class="btn btn-primary"><a href="update.php? updateid='.$id.'" class="text-light"><i class="fa-solid fa-pen-to-square fa-beat"></a></button>
+    <button class="btn btn-danger"><a href="delete.php? deleteid='.$id.'" class="text-light"><i class="fa-solid fa-trash fa-beat"></i></a></button>
     <td><button class="btn btn-primary"><a href="download.php?file='.$id.' downloadid='.$id.'" class="text-light" ><i class="fa-solid fa-cloud-arrow-down fa-beat"></i></a></button></td>
 </td>
   </tr>';
